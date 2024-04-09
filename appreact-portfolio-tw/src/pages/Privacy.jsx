@@ -1,3 +1,4 @@
+import "../assets/custom.css";
 const Privacy = () => {
   return (
     <>

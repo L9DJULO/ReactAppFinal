@@ -1,11 +1,12 @@
 import { Footer } from "flowbite-react";
 import { Link } from "react-router-dom";
+import "../assets/custom.css";
 
 const FooterApp = () => {
   return (
-    <Footer>
+    <Footer className="bg-navy-900 dark:bg-navy-900">
       <div>
-        <div className="w-full text-center">
+        <div className="w-full text-center text-navy-300 dark:text-navy-300">
           <div className="w-full justify-between sm:flex sm:items-center sm:justify-between">
             <Footer.Brand>
               <Link to="/">
@@ -17,10 +18,30 @@ const FooterApp = () => {
               </Link>
             </Footer.Brand>
             <Footer.LinkGroup>
-              <Footer.Link href="#">About</Footer.Link>
-              <Footer.Link href="#">Privacy Policy</Footer.Link>
-              <Footer.Link href="#">Licensing</Footer.Link>
-              <Footer.Link href="#">Contact</Footer.Link>
+              <Footer.Link
+                href="#"
+                className="text-navy-300 dark:text-navy-300"
+              >
+                About
+              </Footer.Link>
+              <Footer.Link
+                href="#"
+                className="text-navy-300 dark:text-navy-300"
+              >
+                Privacy Policy
+              </Footer.Link>
+              <Footer.Link
+                href="#"
+                className="text-navy-300 dark:text-navy-300"
+              >
+                Licensing
+              </Footer.Link>
+              <Footer.Link
+                href="#"
+                className="text-navy-300 dark:text-navy-300"
+              >
+                Contact
+              </Footer.Link>
             </Footer.LinkGroup>
           </div>
           <Footer.Divider />
