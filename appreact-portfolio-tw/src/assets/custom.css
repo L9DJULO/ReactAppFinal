@@ -1,0 +1,91 @@
+nav.theme-dark, nav.theme-dark ul.links-wrapper.active { background-color: #232946 }
+header.theme-dark   { background-color: #232946}
+header.theme-dark  h1 { color: #fffffe; }
+header.theme-dark h2 {color: #b8c1ec;}
+section.theme-dark{ background-color: #b8c1ec;}
+
+theme-dark .col-1 h3.in-col-1, .theme-dark .col-1 h3,.theme-dark .col-1 h2 {
+    color: #232946;
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.theme-dark h1, .theme-dark h2, .theme-dark h3, .theme-dark p, .theme-dark li {
+    color: #232946;
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+footer.theme-dark   { background-color: #232946 }
+footer.theme-dark > h2 {
+    color: #fffffe;
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.theme-dark h1, .theme-dark h2, .theme-dark h3, .theme-dark p, .theme-dark li {
+    color: #232946;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+footer.theme-dark > h3 {
+    color: #b8c1ec;
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+header .col-text h2, .col-1 > h3 { line-height: 1.8 }
+
+.theme-dark a:not(.btn):link, .theme-dark a:not(.btn):visited {
+    color: #232946;
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.theme-dark a:not(.btn):hover {
+    color: #9656a1;
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+header.cols-2-half .col-text, header.cols-2-half .col-visual {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    max-width: 45%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.theme-dark .btn-solid:link, .theme-dark .btn-solid:visited {
+    color: #232946;
+    background-color: #fffffe;
+    border-color: #fffffe;
+}
+
+.section-selector-1 a.btn:link, .section-selector-1 a.btn:visited {
+    background-color: #fffffe !important;
+    border-color:#fffffe !important;
+}
+.section-selector-1 a.btn:link, .section-selector-1 a.btn:visited {
+    color: #232946 !important;
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+footer.theme-dark a:visited {
+  color: #b8c1ec !important;
+}
+
+/* Change color on hover */
+footer.theme-dark a:hover {
+  color: #9656a1 !important ;
+}
